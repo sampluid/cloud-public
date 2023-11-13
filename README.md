@@ -7,7 +7,7 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 
 These are the AWS tools and programming languages I used to complete this project:
 
-Stacks in CloudFormation - This is where I created all of the resources initially to start the process of hosting the website in AWS. I created the resources using AWS Vault and Powershell. AWS Vault was used to store my credentials in order to deploy these resources from templates via remote shell. This way, none of the resources had to be manually created via the AWS user interface. The resources created for this are listed below:
+Stacks in CloudFormation - This is where I created all of the resources initially to start the process of hosting the website in AWS. I created the resources using AWS SAM CLI, AWS Vault and Powershell. AWS Vault was used to store my credentials in order to deploy these resources from templates via remote shell. This way, none of the resources had to be manually created via the AWS user interface. The resources created for this are listed below:
 
 - AWS::Lambda::Function
 - AWS::Lambda::Permission
