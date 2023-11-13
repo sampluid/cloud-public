@@ -21,7 +21,7 @@ The templates I created can be found here - https://github.com/sampluid/Cloud-re
 
 Once I had the stack created, I used S3 Buckets to store the files that AWS used for my website. That included the HTML, CSS, and Javascript files for my resume. Those can be found here - https://github.com/sampluid/cloud-public/tree/main/resume
 
-I then purchased a custom domain through Route53. I also generated SSL certificates and configured HTTPS to secure the website.  
+I then purchased a custom domain through Route53. I also generated SSL certificates and configured HTTPS to secure the website. I also used AWS CloudFront distribution (CDN Service) to help deliver data at low latency with a high transfer speed.   
 
 I then used DynamoDB and Lambda to create the website counter that you can find at the bottom right of the resume website. DynamoDB is the database that Lambda references. Lambda allowed me to create an API using Python. You can find the source code I created here -  https://github.com/sampluid/Cloud-resume-challenge/blob/main/cloud-resume-challenge/Lambda-Python-api.py
 
