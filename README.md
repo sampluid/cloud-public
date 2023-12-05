@@ -1,8 +1,8 @@
 # cloud-public
 # AWS Cloud Resume Challenge
 
-This is my attempt at cloud resume challenge in AWS.
-What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresumechallenge.dev/) is a multiple-step resume project which helps build and demonstrate skills fundamental to pursuing a career in Cloud. The project was published by Forrest Brazeal.
+This is my attempt at the Cloud Resume Challenge in AWS.
+What is the Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresumechallenge.dev/) is a multiple-step resume project which helps build and demonstrate skills fundamental to pursuing a career in Cloud. The project was published by Forrest Brazeal.
 
 
 These are the AWS tools and programming languages I used to complete this project:
@@ -29,4 +29,3 @@ To display the website counter, I used Javascript that the HTML file references.
 
 Finally, I setup CI/CD using my GitHub repository to automatically push changes to the website without having to access AWS at all. This involved creating a Yaml file and storing secret access keys within GitHub. That can be found here - https://github.com/sampluid/cloud-public/blob/main/.github/workflows/frontend-cicd.yaml
 
-The next steps will be to setup DNSSEC to add additional security and to improve the HTML and CSS code to make the website appearance better. Although I did learn a lot of HTML and CSS, that was not the focus of this challenge so the website is pretty basic at this point in time 
